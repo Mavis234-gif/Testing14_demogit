@@ -35,6 +35,6 @@ public class Buoi_3 {
                 System.out.println("Tên học sinh: " + ten);
             }
         }
-
+        //Test git
     }
 }
