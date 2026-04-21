@@ -1,4 +1,4 @@
-public class buoi_4b {
+public class Buoi_4a {
     public static void main(String[] args) {
         //object và class
         //class: là khuôn mẫu để tạo ra các đối tượng, nó định nghĩa các thuộc tính và phương thức dùng chung của đối tượng
@@ -11,9 +11,9 @@ public class buoi_4b {
 }
 
 
-        //public: là một phạm vi truy cập, cho phép truy cập từ bất kỳ đâu trong chương trình
-        //private: là một phạm vi truy cập, chỉ cho phép truy cập từ bên trong class(truy cập thông qua các phương thức)
-        //read only: chỉ cho phép truy cập từ bên trong class, không cho phép sửa đỗi giá trị của thuộc tính(như private)
+//public: là một phạm vi truy cập, cho phép truy cập từ bất kỳ đâu trong chương trình
+//private: là một phạm vi truy cập, chỉ cho phép truy cập từ bên trong class(truy cập thông qua các phương thức)
+//read only: chỉ cho phép truy cập từ bên trong class, không cho phép sửa đỗi giá trị của thuộc tính(như private)
 
 class sinhVien {
     //thuộc tính:
@@ -40,7 +40,7 @@ class sinhVien {
     //tính điểm trung bình: sử dụng phương thức có giá trị trả về
     public double tinhDiemTrungBinh(){
         double diemTrungBinh = (diemToan + diemLy + diemHoa) / 3;
-         return diemTrungBinh;
+        return diemTrungBinh;
     }
 
     public void xepLoai(){
